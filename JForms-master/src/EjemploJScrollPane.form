@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="EjemploJScrollPane">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="9097" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <vspacer id="28dc0">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="ad1dc" class="javax.swing.JSeparator" binding="separador1">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="75244" class="javax.swing.JTextArea" binding="necesitasHacerUnResumenTextArea" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="¿Necesitas hacer un resumen de un libro? Los resúmenes de libros resultan muy útiles para entender lo esencial de los hechos, los personajes o las ideas principales de cada historia. La intención de un resumen de un libro de lectura es proporcionar al lector interesado un texto breve sobre la trama del relato y que, al fin y al cabo, lo aproxime al contenido de sus páginas sin necesidad de leerlo íntegramente.  Los resúmenes de libros pueden clasificarse atendiendo a diferentes parámetros como, por ejemplo, el género literario de los libros (novela, poesía, teatro) o el público al que van dirigidos (público infantil, juvenil o adulto). Sigue leyendo para conocer toda la información que necesitas sobre cómo hacer resúmenes de libros y consultar los ejemplos de resúmenes de libros que necesites en cualquier momento y disfrutar de la lectura.  Cómo hacer un resumen de un libro Aprender a hacer un resumen de un libro es muy sencillo. Es importante que, a la hora de hacer un resumen de un libro de lectura, incluyas no solo la trama de la historia, sino también el autor y el género literario al que pertenece. A continuación, podrás consultar un especial sobre el resumen en el que te daremos las claves para aprender a resumir y sintetizar los conceptos esenciales de cualquier texto:"/>
+        </properties>
+      </component>
+      <component id="8112e" class="javax.swing.JTextField" binding="campotext">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
